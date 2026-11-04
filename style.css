@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #24243a;
+  background-color: #f4f6fb;
+  line-height: 2;
+
+  margin: 0px;
+}
+
+h1,
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+  margin: 0px;
+}
+
+hr {
+  border: 1px solid rgb(47, 81, 88);
+}
+header {
+  background-color: coral;
+}
+main {
+  background-color: rgb(128, 149, 255);
+}
+a {
+  color: #5b45ff;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  width: 99px;
+  margin: 10px;
+  font-weight: bold;
+}
+li {
+  list-style-type: none;
+}
+.navUL {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px;
+}
+.InfoSection {
+  background-color: rgb(148, 255, 127);
+  min-height: 400px;
+  width: 80%;
+  justify-self: center;
+  padding: 25px;
+}
+
+.InfoUL {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  justify-content: space-around;
+  align-items: center;
+}
+.InfoUL li {
+  background-color: rgb(128, 149, 255);
+  border: 3px solid rgb(47, 81, 88);
+  border-radius: 10px;
+  text-align: center;
+}
+.InfoUL li h3 {
+  text-align: center;
+}
+
+.CommentSection {
+  background-color: rgb(166, 230, 99);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.CommentSection article {
+  background-color: rgb(101, 168, 230);
+  border: 3px solid gray;
+  border-radius: 15px;
+  width: 25%;
+  font-size: 15px;
+}
+
+.BlockSpan {
+  display: block;
+}
+
+.CategoryContainer {
+  width: 50%;
+}
+.Block {
+  display: block;
+  background-color: #5b45ff;
+}
+
+.InlineBlock {
+  background-color: #5b45ff;
+  display: inline-block;
+  height: 50px;
+  width: 100px;
+}
+.Inline {
+  background-color: #5b45ff;
+  display: inline;
+  height: 50px;
+  width: 100px;
+}
+
+footer {
+  background-color: rgb(95, 235, 95);
+  font-weight: bold;
+}
+footer p {
+  margin: 0px;
+}
